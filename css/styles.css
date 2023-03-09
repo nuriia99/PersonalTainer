@@ -1,0 +1,168 @@
+/* general */
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+.coloured-section{
+color: #fff;
+background-color: #ff5c58;
+}
+
+.white-section{
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* navbar */
+
+
+#navbar .container-fluid {
+  padding: 2% 15%;
+}
+
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover {
+  color: #ffedd3;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+/* inicio  */
+
+
+.inicio{
+    text-align: left;
+}
+
+.title-inicio {
+  font-size: 2.5rem;
+  font-weight: bold;
+  
+}
+
+.main {
+  padding-bottom: 6%;
+}
+.main-image {
+  position: absolute;
+  right: 30%;
+}
+
+.runner {
+  transform: rotate3d(0, 1, 0, 180deg);
+}
+
+.btn-download {
+  margin: 5% 3% 5% 0;
+}
+
+.icon {
+  padding: 0rem 0.5rem 0rem 0rem;
+}
+
+/* features */
+
+
+.icon-feature {
+  color: #fe8f8f;
+  padding-bottom: 5%;
+}
+
+.icon-feature:hover {
+  color: #ff5c58;
+}
+
+#features {
+  font-weight: 1000;
+  position: relative;
+  padding: 10% 15%;
+}
+
+/* opinions */
+
+#opiniones {
+  background-color: #fe8f8f;
+}
+
+.carousel-image {
+  width: 9%;
+  border-radius: 100%;
+  margin: 20px auto;
+}
+
+
+.nombre_opinion {
+  padding-left: 2rem;
+}
+
+/* cards */
+
+.cards {
+  height: auto;
+}
+
+.title-price {
+  padding-bottom: 3%;
+}
+
+.card {
+  margin: 3% 0%;
+}
+
+.price-card {
+  font-size: medium;
+}
+.mensual {
+  color: #8f8f8f;
+}
+
+/* trainer */
+
+.trainer-image {
+  width: 20%;
+  border-radius: 100%;
+  margin-top: 3%;
+}
+
+/* footer */
+
+.social-icon {
+  padding: 0% 0.5% 1%;
+}
+
+@media (max-width: 990px) {
+  
+  .inicio{
+    text-align: center;
+  }
+
+  .navbar{
+    text-align: right;
+  }
+
+  .main-image {
+    position: static;
+    padding-top: 3%;
+  }
+
+  .features-box{
+    padding: 7% 0%;
+  }
+
+}
